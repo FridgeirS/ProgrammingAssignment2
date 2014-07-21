@@ -21,9 +21,6 @@
              getInverse = getInverse)
     }
 
-
-
-
 ## Write a short comment describing this function
 # cacheSolve is a function that takes a matrix created by the makeCacheMatrix function and determines the inverse 
 #matrix of it but what makes it so slick is that it first checks if it has been done before, if so it recalls the 
