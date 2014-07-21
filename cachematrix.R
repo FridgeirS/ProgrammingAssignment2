@@ -25,7 +25,9 @@
 
 
 ## Write a short comment describing this function
-# cacheSolve is a function that takes a matrix created by the makeCacheMatrix function and determines the inverse matrix of it but what makes it so slick is that it first checks if it has been done before, if so it recalls the relevant infromation from memory, if not it goes through the calculations and then stores it in memory.
+# cacheSolve is a function that takes a matrix created by the makeCacheMatrix function and determines the inverse 
+#matrix of it but what makes it so slick is that it first checks if it has been done before, if so it recalls the 
+#relevant infromation from memory, if not it goes through the calculations and then stores it in memory.
   cacheSolve <- function(x, ...) {
         m <- x$getInverse() 
       if(!is.null(m)){ 
